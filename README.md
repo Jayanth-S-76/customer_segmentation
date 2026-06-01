@@ -19,9 +19,8 @@ The analysis addresses four key business questions:
 |------|---------|
 | Python | Core analysis and scripting |
 | Pandas | Data manipulation and aggregation |
-| Scikit-learn | K-Means clustering |
+| Orange | K-Means clustering |
 | Excel / Pivot Tables | Exploratory summaries (discount, age, location) |
-| Matplotlib / Seaborn | Data visualization |
 | PowerPoint (python-pptx) | Presentation generation |
 
 ---
@@ -119,7 +118,7 @@ Numerical features (Age, Purchase Amount, Review Rating, Previous Purchases) wer
 ├── project_shopping_trends.xlsx   # Raw dataset + pivot analyses
 ├── customer_clusters.xlsx         # Dataset with cluster labels assigned
 ├── analysis/
-│   └── segmentation.py            # Clustering and analysis script
+│   └── segmentation               # Clustering and analysis script
 ├── CustomerSegmentation.pptx      # Final presentation
 └── README.md
 ```
